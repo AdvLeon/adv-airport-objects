@@ -2,5 +2,12 @@
 # This is the English language file
 
 # GRF name and description definitions
-STR_GRF_NAME        :{TITLE} {VERSION}
-STR_GRF_DESCRIPTION :Adds overlapping objects to be used in conjunction with OpenGFX Airports for a more realistic look. License: GPL v2
+STR_GRF_NAME            :{TITLE} {VERSION}
+STR_GRF_DESCRIPTION     :Adds overlapping objects to be used in conjunction with OpenGFX Airports for a more realistic look. License: GPL v2
+
+# object classes
+STR_ADVA                :{TITLE}
+
+# object name and description
+STR_RUNWAY_1            :{TITLE} NW
+STR_RUNWAY_1_PURCHASE   :Null

@@ -5,3 +5,23 @@ grf {
     version:                0;
     min_compatible_version: 0;
 }
+
+item (FEAT_OBJECTS, item_fingerpost_3) {
+    property {
+        class:                  "ADVA";
+        classname:              string(STR_ADVA);
+        name:                   string(STR_RUNWAY_1);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  2;
+        remove_cost_multiplier: 8;
+        introduction_date:      date(1961,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_NO_FOUNDATIONS, OBJ_FLAG_ALLOW_BRIDGE);
+        height:                 2;
+        num_views:              4;
+    }
+    graphics {
+        additional_text:    string(STR_RUNWAY_1_PURCHASE);
+    }
+}
